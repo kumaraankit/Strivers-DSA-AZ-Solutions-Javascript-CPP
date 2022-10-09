@@ -1,0 +1,29 @@
+// Selection Sort 
+
+
+class Solution
+{
+  select(arr,i){
+     // code here such that selectionSort() sorts arr[]
+  }
+
+  //Function to sort the array using selection sort algorithm.
+  selectionSort(arr,n){
+      for(let i=0;i<n-1;i++){
+          for(let j=i+1;j<n;j++){
+              if(arr[i]>arr[j]){
+                  // Without using temp variable
+                  [arr[i],arr[j]]=[arr[j],arr[i]]
+                  
+                  //With using temp variable
+                //   let temp;
+                //   temp=arr[i];
+                //   arr[i]=arr[j]
+                //   arr[j]=temp;
+              }
+          }
+      }
+   //code here
+  }
+    
+}
